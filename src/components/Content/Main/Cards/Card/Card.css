@@ -1,0 +1,26 @@
+.card-1-me {
+    transform: translateY(11px);
+    display: grid;
+    text-align: center;
+    justify-items: center;
+    justify-content: center;
+    align-items: center;
+}
+
+.card-span-me {
+    color: rgb(18, 19, 20);
+    font-size: 1rem !important;
+    font-weight: 500;
+}
+
+.card-span-2-me {
+    max-width: 222px;
+    margin-top: 16px;
+    color: rgb(92, 102, 114);
+    font-size: 0.8rem;
+    text-align: center;
+}
+
+.card-1-up {
+    transform: translateY(21px) !important;
+}

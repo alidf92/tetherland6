@@ -1,0 +1,27 @@
+@media only screen and (max-width: 768px) {
+    .trading-d-me {
+        padding-top: 56px !important;
+    }
+}
+@media only screen and (max-width: 430px){
+    .trading-d-me{
+        width: 100%;
+
+    }}
+    
+
+@media only screen and (max-width: 1024px) {
+    .trading-d-me {
+        grid-template-columns: 1fr !important;
+        justify-items: center;
+        row-gap: 48px;
+    }
+}
+
+.trading-d-me {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    justify-content: space-between;
+    padding-top: 96px;
+    background-color: transparent;
+}

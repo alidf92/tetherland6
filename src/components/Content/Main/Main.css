@@ -1,0 +1,12 @@
+@media only screen and (max-width: 430px) {
+    .main-me {
+        max-width: calc(100% - 16px) !important;
+    }
+}
+
+.main-me {
+    background: transparent;
+    width: 1100px;
+    margin: auto;
+    max-width: calc(100% - 48px);
+}

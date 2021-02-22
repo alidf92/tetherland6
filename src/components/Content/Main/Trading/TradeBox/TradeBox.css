@@ -1,0 +1,365 @@
+@media only screen and (max-width: 430px){
+.trade-grid-me {
+    margin: 16px 24px 0px !important;
+}}
+    
+@media only screen and (max-width: 430px) {
+.buy-sell-btn-me  {
+    font-size: 14px !important;
+}}
+    
+
+@media only screen and (max-width: 430px){
+.input-box-me {
+    padding-left: 24px !important;
+}}
+
+@media only screen and (max-width: 430px){
+.input-box-me {
+    padding-right: 24px !important;
+}}
+
+@media only screen and (max-width: 430px){
+.input-me {
+    border-width: 2px;
+}}
+
+.trade-box-me {
+    max-width: 520px;
+    width: 100%;
+    height: 584px;
+    box-shadow: rgb(51 59 75 / 5%) 0px 16px 40px 0px;
+    border: 1px solid rgb(245, 248, 251);
+    border-radius: 16px;
+    background-color: rgb(255, 255, 255);
+    overflow: hidden;
+}
+
+.trade-pos-me {
+    width: 100% !important;
+    position: relative !important;
+}
+
+.trade-box-header-me {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.trade-flex-me {
+    width: 100%;
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+.trade-grid-me {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding: 0px;
+    background-color: rgb(242, 246, 250);
+    border: 1px solid rgb(228, 233, 238);
+    border-radius: 12px;
+    margin: 23px 64px 0px;
+    width: 100%;
+}
+
+.buy-sell-btn-me {
+    margin: 5px;
+    background-color: rgb(242, 246, 250);
+    color: rgb(132, 143, 155);
+    border-radius: 0px;
+    text-align: center;
+    box-shadow: none;
+    font-size: 16px;
+    padding: 0px !important;
+    cursor: pointer;
+}
+
+.active-me {
+    background-color: rgb(32, 136, 255);
+    border-radius: 8px;
+    color: rgb(255, 255, 255);
+}
+
+.btn-text-me {
+    padding: 10px 0px;
+    margin-bottom: 0 !important;
+}
+
+.input-box-me {
+    width: 100%;
+    padding-left: 64px;
+    padding-right: 64px;
+}
+
+.price-box-2-me {
+    display: flex;
+    margin-top: 40px !important;
+    margin-bottom: 8px !important;
+    justify-content: center !important;
+    align-items: center !important;
+}
+
+.p-text-2-me {
+    color: #b1b3b8 !important;
+    font-size: 0.8rem !important;
+}
+
+.span-price-me {
+    font-family: 'vazir' !important;
+    font-weight: 600;
+    padding: 0px 5px;
+    margin-right: 8px !important;
+    font-size: 1.2rem !important;
+}
+
+.toman-me {
+    font-weight: normal;
+}
+.give-take-me {
+    margin-top: 48px !important;
+    position: relative !important;
+}
+
+.give-r-me {
+    position: absolute;
+    font-size: 14px;
+    background-color: rgb(255, 255, 255);
+    padding: 3px 8px;
+    top: -15px;
+    z-index: 2;
+    right: 8px;
+    color: #db1d3e !important;
+}
+
+.m-b-me {
+    margin-bottom: 48px !important;
+}
+
+.input-b-me {
+    position: relative;
+}
+
+.input-me {
+    padding-top: 16px;
+    padding-bottom: 16px;
+    padding-right: 24px;
+    font-size: 14px;
+    width: 100%;
+    background-color: transparent;
+    color: rgb(141, 147, 175);
+    border: 1px solid rgba(239, 239, 239, 0.753);
+    border-radius: 4px;
+}
+input:focus {
+    outline: none !important;
+    border: 1px solid rgb(32, 136, 255);
+}
+textarea:focus {
+    outline: none !important;
+    border: 1px solid rgb(32, 136, 255);
+}
+
+.inp-before-1-me::before {
+    content: "می‌دهید";
+    display: block;
+}
+
+.take-g-me {
+    position: absolute;
+    font-size: 14px;
+    background-color: rgb(255, 255, 255);
+    padding: 3px 8px;
+    top: -15px;
+    z-index: 2;
+    right: 8px;
+    color: #21b386 !important;
+}
+
+.input-toman-me {
+    color: rgb(136, 148, 162);
+    font-size: 14px;
+    position: absolute;
+    top: 17px !important;
+    left: 16px !important;
+}
+
+.btn-success-me {
+    border-radius: 4px;
+    color: rgb(255, 255, 255);
+    width: 100%;
+    padding: 8px;
+    font-size: 0.9rem;
+    margin-top: 24px;
+    cursor: pointer;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(33, 179, 134);
+    padding-top: 16px !important;
+    padding-bottom: 16px !important;
+}
+
+.has-error {
+    outline: none !important;
+    border: 1px solid rgb(250, 1, 1);
+}
+
+.dis-block {
+    color: rgb(177, 179, 184);
+    font-size: 0.8rem;
+}
+.dis-block p {
+    height: 68px;
+    margin-top: 8px !important;
+    margin-right: 8px !important;
+    overflow: hidden !important;
+    line-height: 1.5rem !important;
+}
+
+.dis-none {
+    display: none;
+}
+
+.dis-block-2 {
+    text-align: right;
+    font-size: 0.8rem;
+    color: rgb(219, 29, 62);
+    margin-top: 6px;
+    display: flex;
+    align-items: center;
+}
+
+.dis-none-2 {
+    display: none;
+}
+
+.sendcode-with {
+    width: 100%;
+    padding-left: 64px !important;
+    padding-right: 64px !important;
+}
+
+.give-b-me {
+    position: absolute;
+    font-size: 14px;
+    background-color: rgb(255, 255, 255);
+    padding: 3px 8px;
+    top: -15px;
+    z-index: 2;
+    right: 8px;
+    color: #121314 !important;
+}
+
+.back-btn-con {
+    height: 80px;
+    background: rgb(255, 255, 255);
+    top: 0px;
+    right: 0px;
+    border-radius: 16px;
+    padding-left: 64px !important;
+    padding-top: 32px !important;
+    font-size: 0.8rem !important;
+    text-align: left !important;
+    align-items: center !important;
+    width: 100% !important;
+    display: flex !important;
+    justify-content: flex-end !important;
+    position: absolute !important;
+}
+
+.back-btn-con-2 {
+    height: 80px;
+    background: rgb(255, 255, 255);
+    border-radius: 16px;
+    padding-top: 32px !important;
+    font-size: 0.8rem !important;
+    text-align: left !important;
+    align-items: center !important;
+    width: 100% !important;
+    display: flex !important;
+    justify-content: flex-end !important;
+}
+
+.back-btn {
+    display: flex;
+    justify-content: center !important;
+    align-items: center !important;
+    font-size: 0.8rem !important;
+    text-align: left !important;
+}
+
+.back-btn svg {
+    transform: rotate(0deg);
+    margin-right: 8px !important;
+    cursor: pointer !important;
+}
+
+.login-span {
+    height: 32px;
+    display: flex;
+    margin-bottom: 48px !important;
+    margin-top: 40px !important;
+    justify-content: center !important;
+    align-items: center !important;
+}
+
+.not-auth {
+    margin: 70px 0px 32px 0.1px;
+    padding: 12px 20px;
+    border-radius: 6px;
+    border: 1px solid rgb(228, 233, 238);
+    background-color: rgb(249, 251, 252);
+    font-size: 0.8rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 32px!important;
+    cursor: pointer!important;
+}
+
+
+.not-auth a {
+    text-decoration: none;
+    color: #121314 !important;
+
+}
+
+
+.mt-3 {
+    margin-top: 24px !important;
+}
+
+.mt-4 {
+    margin-top: 32px !important;
+}
+
+.off-code {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+}
+
+.off-border {
+    width: 180px;
+    border-radius: 4px;
+    padding: 8px;
+    margin-top: 24px;
+    cursor: pointer;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    background-color: transparent;
+    color: rgb(145, 154, 171);
+    border: 1px solid rgb(235, 237, 240);
+    color: #21b386!important;
+    font-size: .9rem!important;
+
+}
+
+.off-border p {
+    margin-right: 5px;
+}

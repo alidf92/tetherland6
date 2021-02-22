@@ -1,0 +1,185 @@
+@media only screen and (max-width: 768px) {
+    .footer-me {
+        width: calc(100% - 32px) !important;
+        max-width: 554px !important;
+    }
+}
+
+@media only screen and (max-width: 1024px) {
+    .footer-me {
+        width: 554px;
+        grid-template-columns: none !important;
+        padding-bottom: 75px !important;
+    }
+}
+
+@media only screen and (max-width: 430px) {
+    .footer-p-me {
+        display: none;
+    }
+}
+
+@media only screen and (max-width: 1024px) {
+    .intro-me {
+        grid-column: 1 / 6;
+    }
+}
+
+@media only screen and (max-width: 1024px) {
+    .footer-img-me {
+        position: relative;
+        right: 50%;
+        transform: translateX(50%);
+    }
+}
+
+@media only screen and (max-width: 1024px) {
+    .services-me {
+        grid-column: 2 / 4;
+    }
+}
+
+.bg-footer-me {
+    background-image: linear-gradient(rgb(15, 24, 53), rgb(20, 29, 58));
+    color: rgb(154, 164, 183);
+    font-size: 0.8rem;
+    text-align: justify;
+    line-height: 1.5rem;
+    overflow: hidden;
+    direction: rtl !important;
+}
+
+.footer-me {
+    width: 100%;
+    position: relative;
+    max-width: 1616px;
+    margin: auto;
+    display: grid;
+    column-gap: 16.5%;
+    grid-template-columns: 25% 8.4% 16.5%;
+    padding-bottom: 48px;
+    border-bottom: 1px solid rgb(29, 48, 79);
+    padding-top: 42px;
+    justify-content: center;
+}
+
+.intro-me {
+    direction: rtl !important;
+}
+
+.footer-img-me {
+    margin-bottom: 26px;
+}
+
+.footer-p-me {
+    max-width: 90%;
+    margin: auto;
+}
+
+.footer-services-me {
+    min-width: 82px;
+    list-style: none;
+    margin-top: 87px;
+}
+
+.footer-services-me::before {
+    content: "خدمات";
+    color: rgb(255, 255, 255);
+    display: inline-block;
+    margin-bottom: 26px;
+}
+
+.footer-li-me {
+    line-height: 1.8rem;
+    cursor: pointer;
+    display: list-item;
+}
+
+.footer-about-me {
+    min-width: 95px;
+    list-style: none;
+    margin-top: 87px;
+}
+
+.footer-about-me::before {
+    content: "درباره ما";
+    color: rgb(255, 255, 255);
+    display: inline-block;
+    margin-bottom: 26px;
+}
+
+.footer-a-me {
+    color: rgb(154, 164, 183);
+    cursor: pointer !important;
+    text-decoration: none;
+}
+
+.support-me {
+    min-width: 176px;
+    margin-top: 24px;
+    display: flex;
+    align-items: center;
+}
+
+.phone-sup-me {
+    margin: 0px 7px;
+    direction: ltr !important;
+}
+
+.phone-num-me {
+    direction: ltr !important;
+    color: rgb(33, 179, 134);
+    font-size: 0.8rem;
+}
+
+.phone-num-me a {
+    color: #21b386 !important;
+    text-decoration: none;
+}
+
+.social-me {
+    margin: 32px 0px;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+}
+
+.follow-us-me {
+    text-align: center;
+    display: block;
+    font-size: 0.8rem;
+    color: #fff !important;
+}
+
+.social-icons-me {
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    column-gap: 16px;
+    margin-top: 25px;
+}
+
+.social-a-me {
+    padding: 2.5px 7px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: rgb(255, 255, 255);
+    font-size: 12px;
+    height: 32px;
+    border-radius: 4px;
+    cursor: pointer;
+    background-color: rgb(44, 52, 78);
+}
+
+.copy-me {
+    background-color: rgb(2, 13, 45);
+    padding: 20px 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.text-green-me {
+    color: rgb(33, 179, 134);
+    font-size: 0.8rem !important;
+}

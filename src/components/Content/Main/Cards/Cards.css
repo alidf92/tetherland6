@@ -1,0 +1,22 @@
+@media only screen and (max-width: 1024px) {
+    .cards-style-me {
+        margin-top: 108px !important;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+.cards-style-me {
+    grid-template-columns: repeat(1, 1fr) !important;
+}}
+
+
+
+.cards-style-me {
+    margin-top: 112px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    row-gap: 77px;
+    justify-items: center;
+    justify-content: center !important;
+    align-items: center !important;
+}

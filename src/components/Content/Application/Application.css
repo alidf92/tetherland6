@@ -1,0 +1,155 @@
+@media only screen and (max-width: 1024px) {
+    .app-con-me {
+        padding-top: 68px;
+    }
+}
+
+@media only screen and (max-width: 1024px) {
+    .app-grid-me {
+        grid-template-columns: repeat(1, 1fr) !important;
+        row-gap: 115px;
+    }
+}
+
+@media only screen and (max-width: 1024px) {
+    .app-dl-head-me {
+        text-align: center;
+    }
+}
+
+@media only screen and (max-width: 1024px) {
+    .app-dl-text-me {
+        max-width: 480px;
+        display: block;
+        line-height: 2.14;
+    }
+}
+
+.app-con-me {
+    padding-top: 112px;
+    background: rgb(33, 179, 134);
+}
+
+.app-grid-me {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    width: 1100px;
+    margin: auto;
+    max-width: calc(100% - 48px);
+}
+
+.app-dl-me {
+    margin: auto !important;
+}
+
+.app-dl-head-me {
+    font-weight: bold;
+    margin-bottom: 40px !important;
+    color: #fff !important;
+    font-size: 32px !important;
+    display: block !important;
+}
+
+.app-dl-text-me {
+    font-size: 0.8rem;
+    color: #fff !important;
+}
+
+.dl-box-me {
+    display: grid !important;
+    justify-content: center;
+    align-items: center;
+    margin-top: 48px !important;
+}
+
+.dll-android-me {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 16px !important;
+    color: #fff !important;
+    font-size: 0.8rem !important;
+}
+
+.play-store-me {
+    background: rgb(18, 19, 20);
+    border: none;
+    border-radius: 8px;
+    transform: scale(0.8);
+    display: grid;
+    grid-template-columns: 35px 1fr;
+    column-gap: 20px;
+    align-items: center;
+    padding: 8px 24px;
+    width: 200px;
+    justify-self: start;
+    text-decoration: none;
+}
+
+.text-align-me {
+    text-align: center;
+}
+
+.play-icon-me {
+    text-align: center;
+}
+
+.span-1-me {
+    display: block;
+    color: rgb(255, 255, 255);
+    font-size: 0.8rem;
+}
+
+.span-2-me {
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+}
+
+.link-me {
+    background: rgb(255, 255, 255);
+    border: none;
+    border-radius: 8px;
+    transform: scale(0.8);
+    display: grid;
+    grid-template-columns: 35px 1fr;
+    column-gap: 20px;
+    align-items: center;
+    padding: 8px 24px;
+    width: 200px;
+    justify-self: start;
+    text-decoration: none;
+}
+
+.myket-icon-me {
+    text-align: center;
+    width: 35px;
+    height: 35px;
+}
+
+.span-b-1-me {
+    display: block;
+    color: rgb(18, 19, 20);
+    font-size: 0.8rem;
+}
+
+.span-b-2-me {
+    color: rgb(18, 19, 20);
+    font-weight: bold;
+}
+
+.dl-img-me {
+    position: relative;
+    height: 460px;
+    overflow: hidden !important;
+}
+
+.dl-image-me {
+    width: 320px;
+    position: absolute;
+    bottom: -200px;
+    right: 50%;
+    transform: translateX(50%);
+    box-shadow: rgb(47 52 58 / 48%) 0px 16px 40px 0px;
+    background-color: transparent;
+    border-radius: 39px;
+}

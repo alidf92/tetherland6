@@ -1,0 +1,51 @@
+@media only screen and (max-width: 768px) {
+    .tether-me {
+        margin-bottom: 32px;
+        margin-top: 83px;
+    }
+}
+@media only screen and (max-width: 1024px) {
+    .tether-me {
+        margin-top: 109px;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    .tether-text-me {
+        max-width: 530px;
+        padding: 0px 16px;
+    }
+}
+@media only screen and (max-width: 1024px) {
+    .tether-text-me {
+        max-width: 560px;
+    }
+}
+
+.text-con-me {
+    justify-content: center;
+    align-items: center;
+    text-align: center !important;
+    display: grid!important;
+}
+
+.tether-me {
+    display: block;
+    margin-top: 213px;
+    margin-bottom: 40px;
+    font-weight: bold;
+    color: rgb(18, 19, 20);
+    font-size: 32px !important;
+    text-align: center !important;
+}
+
+.tether-text-me {
+    max-width: 820px;
+    text-align: justify;
+    text-align-last: center;
+    line-height: 2.14;
+    color: rgb(92, 102, 114);
+    color: rgb(18, 19, 20);
+    font-size: 0.8rem;
+    display: block !important;
+}

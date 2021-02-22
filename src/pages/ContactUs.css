@@ -1,0 +1,201 @@
+@media only screen and (max-width: 768px) {
+    .contact-us-main {
+        padding-right: 24px !important;
+        padding-left: 24px !important;
+        margin-top: 48px !important;
+    }
+}
+@media only screen and (max-width: 768px) {
+    .contact-us-main {
+        padding-right: 56px;
+        padding-left: 56px;
+    }
+}
+@media only screen and (max-width: 768px) {
+    .contact-us-main {
+        grid-template-columns: repeat(1, 1fr) !important;
+    }
+}
+
+@media only screen and (max-width: 1024px) {
+    .contact-ways {
+        margin-right: 0px !important;
+        text-align: center !important;
+    }
+}
+
+@media only screen and (max-width: 1024px) {
+    .contact-item {
+        display: grid;
+        justify-content: center;
+    }
+}
+
+
+@media only screen and (max-width: 1024px) {
+    .contact-flex {
+        margin: auto;
+    }
+}
+
+@media only screen and (max-width: 768px){
+    .social-icons a {
+        margin-right: 16px;
+    }
+}
+
+
+
+.contact-us-main {
+    margin-bottom: 130px;
+    margin-top: 72px !important;
+    border-radius: 20px;
+    box-shadow: rgb(51 59 75 / 5%) 0px 16px 40px 0px;
+    border: 1px solid rgb(245, 248, 251);
+    padding-right: 121px;
+    padding-left: 121px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    padding-bottom: 72px !important;
+    background-color: #fff !important;
+    width: 1100px;
+    margin: auto;
+    max-width: calc(100% - 48px);
+    direction: rtl !important;
+}
+
+.contact-ways {
+    margin-right: 38px;
+    margin-bottom: 0px;
+    margin-top: 64px;
+    font-size: 20px;
+    display: block;
+    font-weight: bold;
+    color: rgb(18, 19, 20);
+}
+
+.contact-items {
+    display: grid;
+    row-gap: 32px;
+    margin-top: 32px !important;
+}
+
+.contact-flex {
+    display: flex;
+    margin: auto;
+}
+
+.contact-span {
+    color: rgb(18, 19, 20);
+    font-size: 0.8rem;
+    margin-right: 24px !important;
+    margin-top: 8px !important;
+    font-size: 1rem !important;
+    font-weight: 300 !important;
+    text-align: right !important;
+    display: block !important;
+    direction: ltr !important;
+}
+
+.ways-text {
+    color: rgb(177, 179, 184);
+    color: rgb(18, 19, 20);
+    font-size: 0.8rem;
+    margin-right: 8px !important;
+    font-size: 0.9rem !important;
+}
+
+.social-icons {
+    margin-top: 24px!important;
+}
+
+
+.contact-btn {
+    width: 48px;
+    height: 48px;
+    padding: 16px 15px 15.8px 16px;
+    border-radius: 8px;
+    background-color: rgb(250, 250, 250);
+    cursor: pointer;
+    display: inline-block;
+    margin-right: 0px;
+    color: -webkit-link;
+    margin-right: 24px;
+}
+
+.contact-btn:first-child {
+    margin-right: 0px;
+}
+
+.contact-btn svg {
+
+    overflow: hidden;
+}
+
+
+.for-us {
+    margin-top: 64px;
+    margin-bottom: 48px;
+    font-size: 20px;
+    display: block;
+    font-weight: bold;
+    color: rgb(18, 19, 20);
+    
+}
+
+.contact-inputs {
+    width: 100%;
+    max-width: 400px;
+    margin: 24px auto auto;
+    margin-top: 24px!important;
+    position: relative!important;
+}
+
+
+.contact-input-label {
+    position: absolute;
+    background-color: rgb(255, 255, 255);
+    padding: 3px 8px;
+    top: -15px;
+    z-index: 2;
+    right: 8px;
+    color: #121314!important;
+    font-size: .9rem!important;
+    font-weight: 300!important;
+}
+
+.input-star {
+    color: rgb(219, 29, 62);
+    font-size: 0.8rem;
+}
+
+.contact-input {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-right: 24px;
+    text-align: right;
+    font-size: 14px;
+    background-color: rgb(255, 255, 255);
+    border-radius: 6px;
+    font-weight: 300;
+    width: 100%;
+    color: rgb(141, 147, 175);
+    border: 1px solid rgba(239, 239, 239, 0.753);
+}
+
+.contact-btn-2 {
+    width: 160px;
+    border-radius: 4px;
+    color: rgb(255, 255, 255);
+    padding: 8px;
+    font-size: 0.9rem;
+    margin-top: 24px;
+    cursor: pointer;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(33, 179, 134);
+    margin-left: 16px!important;
+    margin-right: auto!important;
+}
